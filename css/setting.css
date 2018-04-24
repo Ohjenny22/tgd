@@ -3,11 +3,12 @@
     --link-color: #9fdda5;
     --light-pink: #f59ba5;
     --light-yellow: #f0f7ce;
-    --light-green: #bbeaaa;
     --text-color: #4C4646;
-	--like-count-color: #f87d92;
-	--light-purple: #e2b4fa;
-	--pink-purple: #ffb7e6;
+	--like-count-color: #01579b;
+	--lime-yellow: #f0f7ce;
+	--light-green: #C8e6c9;
+	--main-gradient-start: #b2eafa;
+	--main-gradient-end: #9feafa;
 }
 header .row>div:nth-child(1)>a {
     display: block;
@@ -154,7 +155,7 @@ header #header-bar #header-top-notice strong.notice-badge {
     border: none;
 }
 html {
-    background: linear-gradient(to bottom, #ffedeb, #ffc5c3);
+    background: linear-gradient(to bottom, --main-gradient-start, --main-gradient-end);
 }
 body {
     background: 0 0;
@@ -163,10 +164,10 @@ body {
     pointer-events: none;
 }
 #article-list>.article-list-row.notice {
-    background-color: var(--light-purple);
+    background-color: var(--lime-yellow);
 }
 #article-list>.article-list-row.notice:hover, #article-list>.article-list-row:hover {
-    background-color: var(--pink-purple);
+    background-color: var(--light-green);
 }
 #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-time, #article-list>.article-list-row>.item>.list-title {
     border-bottom: 0 solid #fff;
