@@ -137,18 +137,6 @@ header #header-bar #header-top-notice strong.notice-badge {
     border-radius: 5em;
     border: 1px solid var(--main-color);
 }
-#board-info #viewers-area #viewers:before {
-    content: "살아남은 닌겐 ";
-    cursor: text;
-}
-#board-info #viewers-area #viewers:after {
-    content: "人";
-    cursor: text;
-}
-#board-info #viewers-area .fa-user:before {
-    color: rgba(10, 59, 84, 0);
-    content: url(https://sogether.github.io/tgd/images/nunu_icon.png);
-}
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span, #article-list>.article-list-row>.item>.list-title>a, body {
     color: var(--text-color);
 }
