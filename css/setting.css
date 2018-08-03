@@ -198,3 +198,6 @@ span.a-badge i.fa.fa-star {
 #article-list #article-list-menu>.btn.best {
     margin-left: 1em;
 }
+#board-info-profile-img {
+	content:url("board-info-profile-img");
+}
